@@ -14,9 +14,12 @@ public class Q102_LevelOrderTraversal {
     List<List<Integer>> res = new ArrayList<List<Integer>>();
     List<Integer> list = new ArrayList<Integer>();
     LinkedList<TreeNode> que = new LinkedList<TreeNode>();
-    /**主要思路：
-    1.遍历当前节点时，使用队列依次添加当前杰迪纳的左子节点和右子节点
-    2.更新根节点为从队列头取出的节点，重复*/
+    /**
+     * 主要思路：
+     *     1.遍历当前节点时，使用队列依次添加当前杰迪纳的左子节点和右子节点
+     *     2.更新根节点为从队列头取出的节点，重复
+     *
+     * */
     public List<List<Integer>> levelOrder(TreeNode root) {
         if(root == null){
             return res;

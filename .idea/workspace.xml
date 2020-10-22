@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d798f4-7bfd-43d5-8725-04c15856c7dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/binarytree/traversal/Q102_LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/binarytree/traversal/Q102_LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/binarytree/traversal/Q102_LevelOrderTraversal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tree/binarytree/traversal/Q102_LevelOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#214#229#0" expanded="true" />
@@ -160,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603362078305" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603362420099" />
     <property name="last_opened_file_path" value="E:/java视频/并发编程视频/并发编程代码/concurrent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,12 +208,12 @@
       <updated>1603285611458</updated>
       <workItem from="1603285616434" duration="155000" />
       <workItem from="1603285791700" duration="740000" />
-      <workItem from="1603286785359" duration="5638000" />
+      <workItem from="1603286785359" duration="5979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6533000" />
+    <option name="totallyTimeSpent" value="6874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/binarytree/traversal/Q102_LevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#214#229#0" expanded="true" />
