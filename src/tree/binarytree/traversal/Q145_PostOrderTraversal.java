@@ -1,5 +1,7 @@
 package tree.binarytree.traversal;
 
+import tree.binarytree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
