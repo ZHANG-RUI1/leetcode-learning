@@ -1,0 +1,84 @@
+1.谈谈你对Java平台的理解？“Java是解释执行”这句话正确吗？
+        在我的印象中，Java平台是一个庞大的并且可靠的语言体系，在应用层面，有各种优秀的框架和解决方案为其服务，用于处理企业在生产环境中
+    遇到的各种复杂问题，例如：Spring体系、Handoop、spark，ElasticSearch、Maven等。在Java语言自身层面,它的语法特性像面向对象、反射
+    等，还有一些核心类库，例如：Collection, Map, IO/NIO，Concurrent包等，还有他的异常体系，这解决了很多应用问题。而从JVM虚拟机层面
+    来说，Java的 write once, run anywhere正来源于此，虚拟机实现了Java的跨平台能力，并且通过垃圾收集器为Java管理内存，让使用者不再为
+    分配和回收内存而操心，只需要专注于代码业务逻辑的实现。
+        而对于“Java是解释执行”这句话，我认为这种说法不够准确，虽然我们开发的源代码通过Javac编译成二进制字节码文件，再通过虚拟机内嵌
+    的解释器进行解释执行。但目前主流的Java虚拟机，比如Hotspot,都采用了JIT即时编译器，也就是通常所说的动态编译器。它可以在运行时将热点
+    代码编译成机器码，这种情况下，这部分代码就属于编译执行。
+2.请对比Exception和Error，另外，运行时异常和一般异常有什么区别？
+        在Java的异常体系中，只有Throwable（或者其子类）的实例才可以进行异常处理（抛出或者捕获处理），而它有两个直接的异常子类
+    Exception和error。error表明出现严重问题，描述的是Java运行时系统的内部错误和资源耗尽错误（递归可能出现），通常不进行异常处理，如：
+    NoClassDefFoundError,OutOfMemoryError等。而Exception表示程序中出现的普通问题，通常是代码存在问题，分为运行时异常
+    （RuntimeException）和一般异常。
+        在Java中，把运行时异常（RuntimeException）和Error类派生的所有类称为非受查异常，因此运行时异常是非受查异常，通常由代码的逻辑
+    错误导致，根据需要，判断是否需要进行异常处理，例如：数组越界（ArrayIndexOutOfBoundsException）,空指针异常（
+    NullPointerException），并发修改异常（ConcurrentModificationException）等等；而Exception中的一般异常是受查异常，有时也被称为
+    编译期异常，必须进行异常处理，否则编译无法通过，例如：IOException,ClassNotFoundException 。
+    2.1 NoClassDefFoundError和ClassNotFoundException的区别？
+        NoClassDefFoundError是Error的派生类，属于非受查异常，不用进行异常处理，发生在编译完成后，虚拟机在准备执行字节码文件时，通过
+    类加载器在classpath下加载字节码文件时发现找不到对应类时。ClassNotFoundException属于运行时异常，是受查异常，必须进行异常处理，例
+    如：Class.forName的时候。
+3.谈谈final、finally、finalize有什莫不同？
+        final可以用来修饰类、方法、变量，分别有着不同的意义；修饰类时表明此类是无法被继承扩展的（如:String类），修饰方法时，表明此方法
+    不能被重写，而修饰变量，此变量只能赋值一次，也就是常量，final修饰的类变量，在准备阶段就被赋值（饿汉式单例模式中）。List.of创建一个
+    不可变的List。
+        finally存在于Java的异常处理体系中，用于保证重点代码必须被执行的机制中，如try-finally,try-catch-finally，常用于关闭资源
+    JDBC，解锁unlock等场景下。
+        finalize是基类Object的一个方法。它可以在垃圾收集前执行，设计目的是保证对象在垃圾收集前完成特定的资源回收，JDK9已经将其标为过
+    时方法。
+4.强引用、软引用、弱引用、虚引用的区别？
+    强引用：普通对象引用，表明对象活着，垃圾收集器不会回收，用于普通赋值；
+    软引用：1.2提供软引用类，非必要对象，内存不足时垃圾收集器会回收此类对象，用于实现内存敏感的缓存；
+    弱引用：1.2提供弱引用类，非必要对象，下一次垃圾回收时会回收此类对象，用于提供一种对象的访问途径或缓存实现；
+    虚引用（幻引用）：1.2提供弱引用类，最弱的引用关系，唯一用于对象被回收时收到系统的通知
+5.String、StringBuiler、Stringbuffer有什么区别？
+    String为不可变类，由final修饰，因此对于它的拼接、剪切等，都会产生新的对象。由于对字符串的操作往往较多，因此性能不太好；
+    StringBuilder底层使用可变数组，解决了String中字符串拼接操作产生太多中间对象的问题，不保证线程安全，性能最高。
+    StringBuffer,相比于StringBuilder，加上了线程安全的部分。
+    5.1.字符串对象创建
+        String str1 = "123": 创建0或1个对象。
+            当常量池存在此值时，不创建对象，直接将引用赋值给str1；不存在时，常量池中创建一个字符串对象，并将引用赋值给str1。
+        String str2 = new String("123"): 创建1或者2个对象，但值只使用同一份。
+            当常量池存在此值时，只在堆内创建1个对象，值指向常量池中的值；不存在时，先在常量池中创建一个字符串对象，再在堆中创建一个对象
+        对象的值指向常量池中的值。
+        String str3 = "abc" + "def": 虚拟机会在程序编译期优化为连接后的值，因此，创建0/1个对象。
+        String str4 = "abc" + new String("def")：编译优化为：
+            String s = new String("def"); new StringBuilder.append("abc").append(s).toString);
+            创建对象5个：常量池2个，堆1个，StringBuilder1个。（常量池未存储"abcdef",尚存在疑问）。
+    5.2.intern方法的作用String str5 = str4.intern()
+        调用intern方法，当字符串存在于常量池中时，将字符串引用赋值；当不存在时，在常量池中创建一个字符串对象，并将其引用进行赋值。
+6.
+
+
+12.
+
+13.谈谈接口和抽象类有什么区别？
+    接口和抽象类是Java面向对象的基础机制。
+    接口：1.是对对象的行为抽象；
+         2.不能实例化，不能有非静态的方法实现
+         3.接口可以进行多继承，一个类也可以实现多个接口
+         4.利用接口可以抽取方法集合，以达到API定义和接口实现进行分离，有助于代码的复用和维护，例如：Comparator、serializable接口等。
+    抽象类：1.对事物对象的抽象
+           2.也不能被实例化，但是可以有抽象方法，也可以有方法实现；
+           3.由于是类，只能继承一个父类
+           4.可以用于抽取相关类中共有的方法实现，或者变量，通过继承，达到代码复用的目的，例如：AbstractList。
+
+
+14.谈谈你知道的设计模式？请手动实现单例模式，Spring等框架中使用了哪些模式？
+        按照模式的应用目标分类，设计模式可以分为创建型模式、结构型模式和行为型模式。
+        创建型模式是对对象创建过程的各种问题和解决方案的总结：
+            包括工厂模式、单例模式、原型模式、构建器模式。
+        结构型模式是对软件设计结构的总结，关注于类、对象继承、组合方式的实践经验：
+            包括装饰者模式、适配器模式、代理模式、享元模式、桥接模式、组合模式、外观模式。
+        行为型模式是从类或者对象之间的交互、职责划分等角度总结的模式：
+            包括策略模式、解释器模式、命令模式、观察者模式、迭代器模式、模板方法模式、访问者模式。
+        1》饿汉模式
+        public class Singleton{
+            public static final Singleton NEWINSTANCE = new Singleton();
+            private static Singleton(){};
+        }
+        在Spring中，设计模式的应用也非常多，例如在BeanFactory和ApplicationContext中应用的工厂模式、在bean创建过程中使用的单例模式
+    和原型模式、SpringAOP通过代理模式实现将切面代码植入业务中、Spring中的各种监听器是观察者模式的典型应用，等等。
+

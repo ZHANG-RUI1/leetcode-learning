@@ -1,4 +1,4 @@
-package array.array.dynamicprogramming;
+package array.dynamicprograming;
 
 /**
  * @author zhangrui

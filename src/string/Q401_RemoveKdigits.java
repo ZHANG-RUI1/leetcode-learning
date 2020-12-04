@@ -56,5 +56,6 @@ public class Q401_RemoveKdigits {
     public static void main(String[] args) {
         Q401_RemoveKdigits m = new Q401_RemoveKdigits();
         m.removeKdigits("1432219",3);
+
     }
 }
