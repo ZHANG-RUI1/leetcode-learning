@@ -8,7 +8,6 @@ package array;
 
 public class Q283_MoveZeroes {
 
-
     /**
      * 交换
      * @param nums 传入数组
