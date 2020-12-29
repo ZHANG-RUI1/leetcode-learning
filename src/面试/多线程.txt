@@ -1,0 +1,73 @@
+1.为什么使用线程池？
+    1.线程复用，通过重复利用已经创建的线程降低线程的创建和销毁，降低资源消耗。
+    2.提高响应速度，当任务到达时不需要等待创建线程就可以直接执行。
+    3.提高线程的可管理性，可以对线程进行统一的分配，调优和监控。如避免线程无限制创建。
+
+
+2.线程池的实现？
+    线程池的顶层接口为Executor,通过ThreadPoolExecutor实现
+
+
+3.有几种线程池？
+        Executors提供了三种线程池的实现，分别是newFixedThreadPool(固定线程池),newCachedThreadPool(可扩展线程池),
+    newSingleThreadExecutor(单线程线程池)。阿里开发手册 7个参数。
+    Executors各个方法的弊端：
+
+    1） newFixedThreadPool和newSingleThreadExecutor: 主要问题是堆积的请求处理队
+        列可能会耗费非常大的内存，甚至OOM。
+
+    2） newCachedThreadPool和newScheduledThreadPool: 主要问题是线程数最大数是
+        Integer.MAX_VALUE，可能会创建数量非常多的线程，甚至OOM。
+
+
+4.并行和并发的区别？
+    并行：指同一时间，多个任务同时运行。
+    并发：指多个任务轮流执行。
+
+
+5.线程个数设置
+    CPU 密集型运算
+        通常采用：  线程个数 = cpu 核数 + 1
+        能够实现最优的CPU利用，+1 是保证当线程由于页缺失故障（操作系统）或其它原因导致暂停时，额外的这个线程保证CPU时钟周期不浪费。
+    I/O密集型运算
+        由于IO运算时CPU不用进行运算,这时可以使用更多的线程提高CPU的利用率。
+        通常采用：  线程个数 = cpu 核数 * （1 / CPU执行时间占总时间的百分比）
+
+    总结：越需要cpu运行的任务，线程要越少。
+
+
+
+6.线程状态简述？
+    操作系统层面将线程状态分为5种，新建、就绪、运行、阻塞、结束。
+    JavaAPI层面将线程状态分为6种，NEW、RUNNABLLE、BOLCKED、WAITTING、TIME_WAITTING、TERMINATED。
+    JavaAPI将阻塞状态细分为BOLCKED、WAITTING、TIME_WAITTING；将运行状态、可运行状态、IO阻塞包含在了RUNNABLE中。
+
+    6.1.处于阻塞状态的情况？
+        获取锁失败
+        BIO时
+
+
+7.进程和线程的区别？
+    在我的理解中，进程像是一个容器，是系统资源分配的最小单元，而线程是一个具体执行的任务，是系统任务调度的最小单元。
+
+
+
+8.创建线程的三种方式？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
