@@ -1,0 +1,7 @@
+1.javac    xx.java      参数-g(包含本地变量表)
+2.java     xx.class
+3.javap -c xx.class                         查看字节码文件
+4.javap -c -verbose HelloByteCode.class     查看更详细信息的字节码文件
+5.jconsole                                  内存状况查看工具
+
+

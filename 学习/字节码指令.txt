@@ -1,0 +1,8 @@
+1.  a:引用类型
+    i:int
+    l:long
+    s:short
+    b:byte
+    c:char
+    f:float
+    d:double
