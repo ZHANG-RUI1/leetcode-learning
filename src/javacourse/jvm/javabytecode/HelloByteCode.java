@@ -1,4 +1,4 @@
-package jvm.javabytecode;
+package javacourse.jvm.javabytecode;
 
 /**
  * @author zhangrui
