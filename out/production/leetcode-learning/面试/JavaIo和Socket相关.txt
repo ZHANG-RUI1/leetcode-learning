@@ -28,9 +28,12 @@
 	        1.基类的 protected 成员是包内可见的，并且对子类可见；
             2.若子类与基类不在同一包中，那么在子类中，子类实例可以访问其从基类继承而来的protected方法，而不能访问基类实例的
         protected方法。
+        参考：https://www.runoob.com/w3cnote/java-protected-keyword-detailed-explanation.html
 
 
-3.BIO,NIO和AIO的区别
+3.什么是socket？
+    在两台机器间建立一个网络连接的通道，使其可以相互的发送数据。
+4.BIO,NIO和AIO的区别
       BIO
           BIO为同步阻塞I/O模式（也称为传统IO）,基于流，指一个线程在执行I/O操作时，需要等待I/O操作的完成，程序才能继续执行，这段时间线程
       阻塞不能做其他事情，它的Socket通信通过Socket和ServerSocket实现，适用于低负载、低并发的情况。
@@ -70,7 +73,7 @@
       序发起I/O操作后，可以做其他事情，无需阻塞，当操作完成后由操作系统将操作结果交给调用程序进行处理。
 
 
-  4.Java中的三种类型的Socket通信
+5.Java中的三种类型的Socket通信
       1.Socket和ServerSocket
       2.SocketChannel和ServerSocketChannel
       3.AsychronousSocketChannel和AsychronousServerSocketChannel

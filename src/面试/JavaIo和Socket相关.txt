@@ -33,6 +33,8 @@
 
 3.什么是socket？
     在两台机器间建立一个网络连接的通道，使其可以相互的发送数据。
+
+
 4.BIO,NIO和AIO的区别
       BIO
           BIO为同步阻塞I/O模式（也称为传统IO）,基于流，指一个线程在执行I/O操作时，需要等待I/O操作的完成，程序才能继续执行，这段时间线程
@@ -77,5 +79,9 @@
       1.Socket和ServerSocket
       2.SocketChannel和ServerSocketChannel
       3.AsychronousSocketChannel和AsychronousServerSocketChannel
+
+6.同步、异步、阻塞和非阻塞
+    同步、异步指通讯模式
+    阻塞、非阻塞指线程处理模式
 
 
