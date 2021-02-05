@@ -3,5 +3,6 @@
 3.javap -c xx.class                         查看字节码文件
 4.javap -c -verbose HelloByteCode.class     查看更详细信息的字节码文件
 5.jconsole                                  内存状况查看工具
-
+6.java -jar gateway-server-0.0.1-SNAPSHOT.jar   运行jar包
+7.查看当前使用的GC java -XX:+PrintCommandLineFlags -version
 
