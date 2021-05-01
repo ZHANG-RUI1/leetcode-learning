@@ -35,3 +35,8 @@
               cookie/session/jsp/serverlet                         支持Java企业级规范EJB/jms
    http服务器---------------------------------->web服务器(tomcat)---------------------------------->EE服务器
 
+
+8.get请求和post请求的区别？
+    1.get请求，浏览器会缓存响应信息(解决：url后加?Math.Random();post不会
+
+

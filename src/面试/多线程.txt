@@ -146,13 +146,13 @@
     CyclicBarrier
         每个线程执行到某个需要“同步”的时刻调用 await() 方法进行等待，当等待的线程数满足『计数个数』时，继续执行
     CountDownLatch和CyclicBarrier区别
-            CountDownLatch在主线程await阻塞并做聚合，同步点在主线程；CyclicBarrier在每个子线程await()回调聚合，
-        最后到达同步点的线程执行。
+            CountDownLatch在主线程await阻塞并做聚合，同步点在主线程，不可重复使用；
+            CyclicBarrier在每个子线程await()回调聚合，最后到达同步点的线程执行，reset()后可重复使用。
 
 
 
 
-s
+
 
 
 

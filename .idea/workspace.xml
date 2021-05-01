@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d798f4-7bfd-43d5-8725-04c15856c7dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/q.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread/method/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/面试/Netty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/面试/Spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/面试/JavaWeb面试.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/面试/JavaWeb面试.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/面试/Java基础.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/面试/Java基础.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/面试/Java字节码技术.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/面试/Java字节码技术.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/面试/Spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/面试/Spring.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/面试/多线程.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/面试/多线程.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/学习/JDK命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/学习/JDK命令.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,36 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/面试/多线程.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="147" column="34" lean-forward="true" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/面试/Spring.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread/threadpool/MyThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/面试/并发.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -76,18 +51,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread/createthread/UseThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multithread/createthread/UseRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="204">
               <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
@@ -103,7 +69,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/学习/JDK命令.txt">
+        <entry file="file://$PROJECT_DIR$/src/面试/Java基础.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/面试/Java字节码技术.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/学习/JavaIo和Socket相关.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="61" selection-start-line="15" selection-start-column="2" selection-end-line="58" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/学习/字节码指令.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -112,10 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/面试/Java字节码技术.txt">
+        <entry file="file://$PROJECT_DIR$/学习/JDK命令.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -127,6 +120,7 @@
       <list>
         <option value="Singleton" />
         <option value="Class" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -150,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/array/Q861_MatrixScore.java" />
         <option value="$PROJECT_DIR$/src/array/greedy/Q861_MatrixScore.java" />
         <option value="$PROJECT_DIR$/src/array/Q621_LeastInterval.java" />
         <option value="$PROJECT_DIR$/src/array/greedy/Q621_LeastInterval.java" />
@@ -174,13 +167,11 @@
         <option value="$PROJECT_DIR$/src/sort/sort.java" />
         <option value="$PROJECT_DIR$/src/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/multithread/threadpool/MyThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/面试/Java基础.txt" />
         <option value="$PROJECT_DIR$/src/面试/设计模式面试.txt" />
         <option value="$PROJECT_DIR$/src/面试/MySQL面试相关.txt" />
         <option value="$PROJECT_DIR$/src/multithread/createthread/CreatThreadOne.java" />
         <option value="$PROJECT_DIR$/src/multithread/createthread/UseFutureTask.java" />
         <option value="$PROJECT_DIR$/src/multithread/createthread/UseRunnable.java" />
-        <option value="$PROJECT_DIR$/src/面试/Java字节码技术.txt" />
         <option value="$PROJECT_DIR$/src/jvm/javabytecode/HelloByteCode.java" />
         <option value="$PROJECT_DIR$/src/jvm/javabytecode/MovingAverage.java" />
         <option value="$PROJECT_DIR$/src/jvm/javabytecode/LocalVariableTest.java" />
@@ -192,21 +183,24 @@
         <option value="$PROJECT_DIR$/src/javacourse/jvm/homework/first/answer/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/src/string/reg/TestCalTag.java" />
         <option value="$PROJECT_DIR$/src/面试/JavaIo和Socket相关.txt" />
-        <option value="$PROJECT_DIR$/src/面试/JavaWeb面试.txt" />
         <option value="$PROJECT_DIR$/src/面试/gradle.txt" />
         <option value="$PROJECT_DIR$/src/array/q.java" />
         <option value="$PROJECT_DIR$/src/面试/Netty" />
         <option value="$PROJECT_DIR$/src/面试/Netty.txt" />
         <option value="$PROJECT_DIR$/学习/JDK命令.txt" />
         <option value="$PROJECT_DIR$/src/multithread/method/Join.java" />
-        <option value="$PROJECT_DIR$/src/面试/Spring.txt" />
         <option value="$PROJECT_DIR$/src/面试/多线程.txt" />
+        <option value="$PROJECT_DIR$/src/面试/JavaWeb面试.txt" />
+        <option value="$PROJECT_DIR$/src/面试/Spring.txt" />
+        <option value="$PROJECT_DIR$/src/面试/Java基础.txt" />
+        <option value="$PROJECT_DIR$/学习/字节码.ts" />
+        <option value="$PROJECT_DIR$/src/面试/Java字节码技术.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="151" />
+    <option name="x" value="25" />
+    <option name="y" value="5" />
     <option name="width" value="1358" />
     <option name="height" value="738" />
   </component>
@@ -670,6 +664,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -692,21 +687,18 @@
               <item name="leetcode-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="面试" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="面试" type="462c0819:PsiDirectoryNode" />
+              <item name="学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -723,6 +715,7 @@
     <property name="project.structure.proportion" value="0.16773017" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="ts.external.directory.path" value="D:\Jsoftware\JetBrains\IntelliJ IDEA 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -870,7 +863,9 @@
       <workItem from="1611892589489" duration="1800000" />
       <workItem from="1611907026552" duration="735000" />
       <workItem from="1611934247766" duration="3535000" />
-      <workItem from="1612187399386" duration="21439000" />
+      <workItem from="1612187399386" duration="28365000" />
+      <workItem from="1618725082466" duration="2869000" />
+      <workItem from="1619846038731" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="作业提交">
       <created>1607607001809</created>
@@ -879,11 +874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1607607001809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="作业提交">
+      <created>1612494847458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612494847459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379561000" />
+    <option name="totallyTimeSpent" value="389951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,10 +897,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="151" width="1358" height="738" extended-state="0" />
-    <editor active="true" />
+    <frame x="25" y="5" width="1358" height="738" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.288906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.1725732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -918,6 +919,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50378215" side_tool="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32840723" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.4984985" visible="true" weight="0.04666057" />
@@ -1197,13 +1199,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/string/q.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/greedy/Q860_LemonadeChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -1250,13 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3111">
           <caret line="220" column="36" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java SE/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="79" column="49" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1408,20 +1396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/学习/JavaIo和Socket相关.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="58" column="61" selection-start-line="15" selection-start-column="2" selection-end-line="58" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/字节码指令.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/面试/gradle.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1440,13 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/面试/JavaWeb面试.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="99" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
         </state>
       </provider>
     </entry>
@@ -1471,27 +1438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/面试/Java基础.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/面试/Java字节码技术.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习/JDK命令.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/multithread/createthread/UseThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1499,9 +1445,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/面试/多线程.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithread/threadpool/MyThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java SE/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="87" column="57" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/面试/JavaWeb面试.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/面试/并发.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习/字节码.ts" />
+    <entry file="file://$PROJECT_DIR$/src/面试/Spring.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithread/method/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/multithread/createthread/UseRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="204">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
@@ -1513,34 +1505,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread/method/Join.java">
+    <entry file="file://$PROJECT_DIR$/src/面试/Java基础.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/面试/并发.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread/threadpool/MyThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/学习/JavaIo和Socket相关.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="986">
+          <caret line="58" column="61" selection-start-line="15" selection-start-column="2" selection-end-line="58" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/面试/Spring.txt">
+    <entry file="file://$PROJECT_DIR$/学习/字节码指令.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/面试/多线程.txt">
+    <entry file="file://$PROJECT_DIR$/学习/JDK命令.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="147" column="34" lean-forward="true" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/面试/Java字节码技术.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

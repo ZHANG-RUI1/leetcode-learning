@@ -16,8 +16,8 @@
     （RuntimeException）和一般异常。
         在Java中，把运行时异常（RuntimeException）和Error类派生的所有类称为非受查异常，因此运行时异常是非受查异常，通常由代码的逻辑
     错误导致，根据需要，判断是否需要进行异常处理，例如：数组越界（ArrayIndexOutOfBoundsException）,空指针异常（
-    NullPointerException），并发修改异常（ConcurrentModificationException）等等；而Exception中的一般异常是受查异常，有时也被称为
-    编译期异常，必须进行异常处理，否则编译无法通过，例如：IOException,ClassNotFoundException 。
+    NullPointerException），并发修改异常（ConcurrentModificationException）等等，这些异常通常只需通过改正错误的代码即可；而
+    Exception中的一般异常是受查异常，有时也被称为编译期异常，必须进行异常处理，否则编译无法通过，例如：IOException,ClassNotFoundException 。
 
     2.1 NoClassDefFoundError和ClassNotFoundException的区别？
         NoClassDefFoundError是Error的派生类，属于非受查异常，不用进行异常处理，发生在编译完成后，虚拟机在准备执行字节码文件时，通过

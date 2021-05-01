@@ -1,15 +1,22 @@
-1.Spring的优点
+1.Spring的优点,你理解的 Spring 框架是什么呢？
     Spring使大型的系统开发变得更加简单，它不止是一个开发框架，也为开发工作提供了一套模块化的开发理念，
     和一整套更优的研发协作模式。
 
-
-2.你理解的 Spring 框架是什么呢？
-
 3.六大模块
+
 4.循环依赖（只解决属性注入， 不能解决构造方法注入）
+    三级缓存
 
 5.@Autowired 和@Resource的区别
     @Autowired根据类型注入
     @Resource根据名称注入
 
-springfu，，，spring roo
+    springfu，，，spring roo
+
+6.SpringBoot
+    1.一切为了简化
+    2.让开发变简单
+    3.配置变简单
+    4.让运行变简单
+    基于什么变简单：约定大于配置
+    限定性框架和非限定性框架
